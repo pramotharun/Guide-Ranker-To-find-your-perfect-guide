@@ -22,10 +22,10 @@ for i in range(number_of_professors):
     print(i)
     
 
-print(citations_list)
+#print(citations_list)
 
 finaldata = pd.DataFrame({'citedby':citations_list})
-datatoexcel = pd.ExcelWriter("1234.xlsx", engine = 'xlsxwriter')
+datatoexcel = pd.ExcelWriter("out.xlsx", engine = 'xlsxwriter')
 finaldata.to_excel(datatoexcel,sheet_name='Sheet1')
 
 datatoexcel.save()
