@@ -4,9 +4,10 @@ This repository contains the python code that lists professors based on their re
 
 How to use it?
 
-There are 2 files included in this repo:
-1) Excel sheet (input data)
+There are 3 files included in this repo:
+1) Input Excel spreadsheet (int.xlsx)
 2) Python Code
+3) Output spreadsheet (out.xlsx)
 
 Enter the professors/ academians name who's details you want to get in the first column of the excel sheet.
 
