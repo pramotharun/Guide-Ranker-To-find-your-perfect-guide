@@ -3,7 +3,7 @@ import pandas as pd
 from scholarly import scholarly
 import xlsxwriter
 
-df = pd.read_excel("prof.xlsx","Sheet1")
+df = pd.read_excel("int.xlsx","Sheet1")
 
 professors_names = df["Professor name:"].values.tolist()
 
